@@ -587,8 +587,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
+        margin-top: 5px;
+        font-size: 9px;
         line-height: 18px;
     }
 
@@ -615,8 +615,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
+        margin-top: 12px;
+        font-size: 16px;
         line-height: 26px;
     }
 
@@ -641,13 +641,24 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 40px;
+        margin-top: 20px;
+        font-size: 20px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
 }
+
+@media(max-width:767px) {
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 10px;
+        font-size: 8px;
+        line-height: 11px;
+    }
+}
+
 
 .flexbox {
   display: -webkit-box;
